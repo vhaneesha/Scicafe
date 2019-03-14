@@ -1,0 +1,10 @@
+drop table users;
+drop table events;
+drop table rewards;
+drop table programs;
+drop table eventtags;
+drop table eventrewards;
+drop table tags;
+drop table attendees;
+drop table affliations;
+drop table hibernate_sequence;

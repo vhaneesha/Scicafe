@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2691" started-at="2018-10-26T04:29:05Z" finished-at="2018-10-26T04:29:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2691" started-at="2018-10-26T04:29:05Z" finished-at="2018-10-26T04:29:07Z">
+      <class name="scicafe.api.controller.EventControllerTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:scicafe.api.controller.EventControllerTest@2525ff7e]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="6" started-at="2018-10-26T04:29:05Z" finished-at="2018-10-26T04:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:scicafe.api.controller.EventControllerTest@2525ff7e]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="2348" started-at="2018-10-26T04:29:05Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-10-26T04:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:scicafe.api.controller.EventControllerTest@2525ff7e]" name="setup" is-config="true" duration-ms="33" started-at="2018-10-26T04:29:07Z" finished-at="2018-10-26T04:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:scicafe.api.controller.EventControllerTest@2525ff7e]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="82" started-at="2018-10-26T04:29:07Z" finished-at="2018-10-26T04:29:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void scicafe.api.controller.EventControllerTest.createEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="createEvent()[pri:0, instance:scicafe.api.controller.EventControllerTest@2525ff7e]" name="createEvent" duration-ms="192" started-at="2018-10-26T04:29:07Z" finished-at="2018-10-26T04:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEvent -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:scicafe.api.controller.EventControllerTest@2525ff7e]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="13" started-at="2018-10-26T04:29:07Z" finished-at="2018-10-26T04:29:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void scicafe.api.controller.EventControllerTest.createEvent() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:scicafe.api.controller.EventControllerTest@2525ff7e]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2018-10-26T04:29:07Z" finished-at="2018-10-26T04:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- scicafe.api.controller.EventControllerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

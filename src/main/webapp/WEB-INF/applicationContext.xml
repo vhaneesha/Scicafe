@@ -14,7 +14,7 @@
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />
         <property name="url" value="jdbc:mysql://localhost/scicafe?allowPublicKeyRetrieval=true&amp;useSSL=false" />
         <property name="username" value="root" />
-        <property name="password" value="Vhan@283!" />
+        <property name="password" value="******" />
     </bean>
 
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
